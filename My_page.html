@@ -31,11 +31,14 @@
             display: grid;
             grid-template-columns: 100px 1fr;
         }
-
+        .saw{
+            border: 3px solid brown;
+            display: inline;
+        }
     </style>
 </head>
 <body>
-    <form action="http://localhost/yhb7588.php" method="POST" autocomplete="on"></form>
+    <form action="http://localhost/yhb7588.php" method="POST" autocomplete="on">
         <header>
             <h1>Developer momo's programming labo</h1>
             <h4><a href="https://blog.naver.com/yhb7588" target="blank" title="미리보기">programming blog</a></h4>
@@ -64,9 +67,23 @@
                            applications, and user interfaces
                             for many mobile applications.
                     </div>
-        </div>
+           </div>
+
+        <section>
+            <label>
+                <Br>id : <input id="id_txt" type="text" name="id" 
+                    placeholder="input your id" autofocus class="saw"
+                    pattern="[a-zA-Z].+">
+            </label>
+            <label>
+                <br>pw : <input id="pwd_txt" type="password" name="pw"
+                 placeholder="input your pwd" autocomplete="off" class="saw">
+            </label>
+
+            <input type="submit">
+        </section>
 
         </article>
-
+    </form>
 </body>
 </html>
