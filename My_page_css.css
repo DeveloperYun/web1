@@ -1,0 +1,37 @@
+h1{
+    font-size: 35px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    margin: 0px;
+}
+h4{
+    text-align: right;
+    text-decoration: none;
+    font-style: italic;
+    color:red;
+}
+#title01{
+    border-right: 3px brown solid;
+    font-size: 30px;
+    font-style: initial;
+}
+#grid{
+    border: 3px solid brown;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+.saw{
+    border: 3px solid brown;
+    display: inline;
+}
+#banner{
+    border: 3px solid yellowgreen;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+.ar{
+    border-right: 3px yellowgreen solid;
+    font-size: 20px;
+    font-style: initial;
+}
