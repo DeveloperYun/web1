@@ -10,6 +10,35 @@
     <title>blog_clone</title>
 </head>
 <body>
+    <input id="night_day" type="button" value="night" onclick="
+       var target = document.querySelector('body');
+       if(this.value==='night'){
+            target.style.backgroundColor='black';
+            target.style.color='white';
+            this.value='day'
+
+            var alist = document.querySelectorAll('a');
+            var i=0;
+            while( i < alist.length){
+                alist[i].style.color = 'powderblue';
+                i=i+1;
+            }
+       }
+       else{
+           target.style.backgroundColor='white';
+           target.style.color='black';
+           this.value='night'
+
+           var alist = document.querySelectorAll('a');
+            var i=0;
+            while( i < alist.length){
+                alist[i].style.color = 'blue';
+                i=i+1;
+            }
+       }
+       ">
+
+
     <form action="http://localhost/yhb7588.php" method="POST" autocomplete="on">
         <header>
             <h1>Developer momo's programming labo</h1>
@@ -39,26 +68,10 @@
                     for many mobile applications.
                     </div>
            </div>
-           <!--
-            <label>
-                <Br>id : <input id="id_txt" type="text" name="id" 
-                    placeholder="input your id" autofocus class="saw"
-                    pattern="[a-zA-Z].+">
-            </label>
-            <label>
-                <br>pw : <input id="pwd_txt" type="password" name="pw"
-                 placeholder="input your pwd" autocomplete="off" class="saw">
-            </label>
-
-            <input type="submit">
-            -->
             <br><div id="banner">
                 <ol>
-                    title01
-                    <br><br>title02
-                    <br><br>title03
-                    <br><br>title04
-                    <br><br>title05
+                    <br>covid19
+                    <br>Live
                 </ol>
                 <div>
                     현재를 '4차 유행의 정점'이라고 보기는 어렵다. 앞으로 신규 확진자는 더 늘 것 같다. 일단 수도권 거리두기 개편안 4단계 적용이 지난 월요일(12일)에 시작됐으니 이번 주까지는 효과가 안 나올 것이다. 검사 건수 자체가 늘어난 것도 확진자 증가에 영향을 미칠 수 있다. 자칫하면 이번 주 내로 신규 확진자가 2천명까지도 나올 수 있다. 확산세가 길게 갈 것 같다.
