@@ -15,6 +15,7 @@ h4{
     border-right: 3px brown solid;
     font-size: 30px;
     font-style: initial;
+    text-align: center;
 }
 #grid{
     border: 3px solid brown;
@@ -34,6 +35,26 @@ h4{
     border-right: 1px solid yellowgreen;
     padding: 20px;
     margin: 0;
+    text-align: justify;
+    text-align-last: center;
+}
+#banner_main{
+    padding: 10px;
+}
+#news{
+    border: 3px solid rgb(9, 175, 197);
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    
+}
+#news ol{
+    border-right: 1px solid rgb(9, 175, 197);
+    padding: 20px;
+    margin: 0;
+}
+
+#setta{
+    padding: 10px;
 }
 
 @media(max-width:800px){
